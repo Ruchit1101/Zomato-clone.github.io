@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0px; 
+}
+body{
+    margin: 0px;
+   
+}
+.header{
+    background-image: url(bg.jpg);
+    margin: 0px;
+    padding: 10px;
+    background-repeat: no-repeat;
+}
+.navbar{
+    text-align: right;
+    margin: 8px;
+    padding: 12px;
+}
+.navbar a{
+    text-decoration: none;
+    overflow: hidden;
+    color: beige;
+    padding: 24px;
+    font-size: large;
+    font-weight: lighter;
+}
+.navbar a:hover{
+    color: red;
+}
+.header{
+    text-align: center;
+    color: whitesmoke;
+}
+
+#h-1
+{
+    font-weight: bolder;
+    font-size: 4.4rem;
+   
+}
+#h-3{
+    font-weight: lighter;
+    font-size: 2.4rem;
+}
+input[type="search"]
+{
+    width: 35%;
+    height: 45px;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 72px;
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img{
+   
+    width: 374px;
+    height: 168px;
+}
+.f1
+{
+    margin: 20px;
+    padding: 16px ;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    border-radius: 16px;
+}
+.f1:hover{
+    cursor: pointer;
+}
+.app{
+    background-color: rgb(255, 253, 249);
+    text-align: center;
+   width: 100%;
+}
+#happ{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#zom{
+  width: 75px;
+  margin: 4px;
+  float: left;
+}
+input[type="email"]{
+    width: 15%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 6px;
+}
+input[type="button"]
+{
+    background-color: rgba(203, 7, 7, 0.856);
+    color: whitesmoke;
+    margin: 4px;
+    padding: 12px 12px;
+    border: 1px;
+    border-radius: 8px;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+}
+.p{
+    opacity: 0.8;
+}
+#play{
+    width: 255px;
+    
+}
+#play:hover{
+    cursor:pointer;
+}
+.foot{
+  text-align: center;
+  background-color: rgb(248, 248, 248);
+  bottom: 0;
+  margin-bottom: -12px;
+}
+.fa{
+    margin: 12px;
+    text-decoration: none;
+    border: 1px;
+    color: black;
+    border-radius: 6px;
+}
+.foot,.app{
+    margin-top: -8px;
+}
